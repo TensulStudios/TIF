@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/:gif.gif",
-      "destination": "/gifs/:gif.gif"
+      "source": "/:gif(.+\\.gif)",
+      "destination": "/gifs/:gif"
     }
   ]
 }
